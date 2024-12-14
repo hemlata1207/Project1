@@ -1,0 +1,48 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #d8e3f3; /* Light blue background */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.search-container {
+  display: flex;
+  align-items: center;
+  background-color: white;
+  border-radius: 25px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  width: 500px;
+}
+
+.dropdown-menu {
+  border: none;
+  padding: 15px;
+  font-size: 16px;
+  background-color: #d83f87; /* Pink background */
+  color: white;
+  border-radius: 25px 25px 25px 25px;
+  appearance: none; /* Removes default styles */
+  cursor: pointer;
+}
+.dropdown-menu:focus {
+  outline: none;
+}
+
+.search-input {
+  border: none;
+  padding: 10px;
+  font-size: 16px;
+  flex: 1;
+  outline: none;
+}
+
+.search-btn {
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+  font-size: 20px;
+}
