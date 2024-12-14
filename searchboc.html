@@ -1,11 +1,22 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>SearchBox</title>
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Search Bar with Dropdown</title>
 </head>
 <body>
-  
+    <div class="search-container">
+        <select class="dropdown-menu" id="dropdownMenu">
+            <option value="everything">Everything</option>
+            <option value="software">Software Development</option>
+            <option value="web">Web Development</option>
+            <option value="data">Data Analyst</option>
+            <option value="it">IT Consultant</option>
+            <option value="network">Network Administrator</option>
+        </select>
+        <input type="text" class="search-input" placeholder="Search Anything">
+        <button class="search-btn">&#128269;</button>
+    </div>
 </body>
 </html>
